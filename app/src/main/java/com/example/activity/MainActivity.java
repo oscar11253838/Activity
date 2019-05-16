@@ -26,7 +26,7 @@ public class MainActivity extends AppCompatActivity {
     }
 
     @Override
-    protected void omPause(){
+    protected void onPause(){
         super.onPause();
         Log.d(TAG,"onPause");
     }
@@ -44,7 +44,7 @@ public class MainActivity extends AppCompatActivity {
     }
 
     @Override
-    protected void onDestory(){
+    protected void onDestroy(){
         super.onDestroy();
         Log.d(TAG,"onDestory");
     }
